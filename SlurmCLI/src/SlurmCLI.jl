@@ -32,9 +32,6 @@ function shell(cmd::Cmd)
     err = Pipe()
 
     process = run(pipeline(cmd, stdout=out, stderr=err), wait=false)
-    
-    # close(out.in)
-    # close(err.in)
 
     stdout = @async String(read(out))
     stderr = @async String(read(err))
@@ -76,7 +73,6 @@ function sacct_get_jobs(args::Vector{String})
             code  = code
         )
     end
-    
 end
 
 
@@ -113,7 +109,7 @@ struct TimePages{T <: Period}
     start::DateTime
     stop::DateTime
     step::T
-        
+
     TimePages(
         start::DateTime, stop::DateTime, step::T
     ) where T <: Period = new{T}(
@@ -138,7 +134,7 @@ function Base.iterate(tp::TimePages, state=nothing)
     if isnothing(next) && iszero(tp.stop - item_1)
         return nothing
     end
-    
+
     if isnothing(next) && ! iszero(tp.stop - item_1)
         next = (tp.stop, )
     end
@@ -259,7 +255,7 @@ export isa_list
 function merge_arrays(data::AdminComment)
     d_data = deepcopy(data)
     merged_names = String[]
-    
+
     for k in keys(d_data)
         if isa_list(d_data[k])
             if length(d_data[k]) > 1
@@ -269,7 +265,7 @@ function merge_arrays(data::AdminComment)
             d_data[k] = join(d_data[k], " ")
         end
     end
-    
+
     (d_data, merged_names)
 end
 
@@ -298,7 +294,7 @@ function to_dataframe(admin_comments::Vector{AdminComment};
     if clear_output && verbose
         ProgressMeter.ijulia_behavior(:clear)
     end
-    
+
     merged = AdminComment[]
     df = to_dataframe!(admin_comments[1], merged)
     next!(p)
@@ -313,7 +309,7 @@ function to_dataframe(admin_comments::Vector{AdminComment};
 
         next!(p)
     end
-    
+
     (df, merged)
 end
 
