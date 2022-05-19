@@ -1,5 +1,8 @@
 module SlurmCLI
 
+include("nids.jl")
+
+
 using JSON, Dates, DataFrames, Parquet, ProgressMeter
 using Base: @kwdef, convert, iterate, length
 
