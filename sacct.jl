@@ -24,6 +24,6 @@ if ! isnothing(PARSED_ARGS["reservation"])
         readlines(f)
     end
 
-    reservations = read_reservations(lines)
+    reservations = SlurmCLI.Reservations.read(lines)
     @show reservations
 end

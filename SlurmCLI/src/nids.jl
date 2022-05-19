@@ -1,4 +1,4 @@
-module SlurmNid
+module Nids
 
 isa_nid(x::AbstractString) = (x[1:3] == "nid")
 
