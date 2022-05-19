@@ -1,7 +1,7 @@
 #!/usr/bin/env julia
 
 import Pkg
-Pkg.activate(joinpath(@__DIR__, "SlurmCLI"), io=devnull) 
+Pkg.activate(joinpath(@__DIR__, "SlurmCLI"), io=devnull)
 Pkg.instantiate()
 
 
