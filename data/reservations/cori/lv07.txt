@@ -1,0 +1,24 @@
+ReservationName=lv07_processing_1 StartTime=2021-07-29T10:00:00 EndTime=2021-07-29T22:00:00 Duration=12:00:00
+   Nodes=nid00[792-795,800-831,845,847-848,852-876] NodeCnt=64 CoreCnt=2048 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=4096
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
+ReservationName=lv07_processing_2 StartTime=2021-07-30T10:00:00 EndTime=2021-07-30T22:00:00 Duration=12:00:00
+   Nodes=nid00[792-795,800-831,845,847-848,852-876] NodeCnt=64 CoreCnt=2048 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=4096
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
+ReservationName=lv07_processing_3 StartTime=2021-07-31T10:00:00 EndTime=2021-07-31T22:00:00 Duration=12:00:00
+   Nodes=nid00[792-795,800-831,845,847-848,852-876] NodeCnt=64 CoreCnt=2048 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=4096
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
+ReservationName=lv07_processing_4 StartTime=2021-08-01T10:00:00 EndTime=2021-08-01T22:00:00 Duration=12:00:00
+   Nodes=nid00[792-795,800-831,845,847-848,852-876] NodeCnt=64 CoreCnt=2048 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=4096
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+

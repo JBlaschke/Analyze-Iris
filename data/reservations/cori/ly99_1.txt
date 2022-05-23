@@ -1,0 +1,6 @@
+ReservationName=LY99_1 StartTime=2022-03-18T00:01:00 EndTime=2022-03-18T12:01:00 Duration=12:00:00
+   Nodes=nid0[1304-1305,1334,1428-1444] NodeCnt=20 CoreCnt=640 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=1280
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:01:00
+

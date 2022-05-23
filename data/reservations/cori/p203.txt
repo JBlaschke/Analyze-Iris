@@ -1,0 +1,18 @@
+ReservationName=p203_processing_1 StartTime=2021-08-01T22:00:00 EndTime=2021-08-02T10:00:00 Duration=12:00:00
+   Nodes=nid00[792-795,800-827] NodeCnt=32 CoreCnt=1024 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=2048
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=ACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
+ReservationName=p203_processing_2 StartTime=2021-08-02T22:00:00 EndTime=2021-08-03T12:00:00 Duration=14:00:00
+   Nodes=nid00[792-795,800-827] NodeCnt=32 CoreCnt=1024 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=2048
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
+ReservationName=p203_processing_2 StartTime=2021-08-02T22:00:00 EndTime=2021-08-03T12:00:00 Duration=14:00:00
+   Nodes=nid00[792-795,800-828,860,876-882,884,902-910,913-914,924-926,928-929,935,947-949,952-953] NodeCnt=64 CoreCnt=2048 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=4096
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+

@@ -1,0 +1,24 @@
+ReservationName=lx31_processing_1 StartTime=2021-07-23T10:00:00 EndTime=2021-07-23T22:00:00 Duration=12:00:00
+   Nodes=nid00[800-831] NodeCnt=32 CoreCnt=1024 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=2048
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
+ReservationName=lx31_processing_1a StartTime=2021-07-23T23:07:19 EndTime=2021-07-24T11:07:19 Duration=12:00:00
+   Nodes=nid0[1161,1203-1205,1330-1332,1393-1403,1423-1426,1454-1460,1463-1464,1492] NodeCnt=32 CoreCnt=1024 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=2048
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=ACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
+ReservationName=lx31_processing_2 StartTime=2021-07-25T10:00:00 EndTime=2021-07-26T10:00:00 Duration=1-00:00:00
+   Nodes=nid00[792,800-808,810-811,813-831,845] NodeCnt=32 CoreCnt=1024 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=2048
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=INACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
+ReservationName=lx31_processing_2 StartTime=2021-07-25T10:00:00 EndTime=2021-07-26T10:00:00 Duration=1-00:00:00
+   Nodes=nid0[0792,0800-0808,0810-0811,0813-0831,0845,1325-1326,1929-1931,1969,2010,2013,2018,2026-2027,2081-2084,2105-2106,2146-2147,2150-2151,2161,2219,2221-2225,2228,2293-2295] NodeCnt=64 CoreCnt=2048 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=4096
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=ACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:05:00
+
