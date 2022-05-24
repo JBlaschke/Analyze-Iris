@@ -133,15 +133,17 @@ end
 
 
 # Note: division of [Millisecond]/[Day] only defined starting v 1.8
-Base.length(tp::TimePages) = ceil(Int64,(tp.stop - tp.start)/tp.step)
+Base.length(tp::TimePages) = ceil(
+    Int64, (tp.stop - tp.start)/Millisecond(tp.step)
+)
 
 
 export TimePages
 
 
 function add_unique!(
-    admin_comments::Vector{AdminComment}, new_jobs::Vector{Any}
-)
+        admin_comments::Vector{AdminComment}, new_jobs::Vector{<: Any}
+    )
     # add unique jobs to the list of admin_comments
     job_ids = map(x->x["jobId"], admin_comments)
     for job in new_jobs
