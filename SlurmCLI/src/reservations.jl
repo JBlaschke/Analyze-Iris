@@ -56,6 +56,18 @@ function Base.convert(::Type{Duration}, s::AbstractString)
 end
 
 
+function ReservationDescriptor(r::SlurmReservation)
+    ReservationDescriptor(;
+        name=r.ReservationName,
+        nodelist=r.Nodes,
+        starttime=r.StartTime,
+        endtime=r.EndTime,
+        nodecount=r.NodeCnt,
+        features=r.Features,
+        account=r.Accounts
+    )
+end
+
 export ReservationDescriptor, SlurmReservation, Duration
 
 

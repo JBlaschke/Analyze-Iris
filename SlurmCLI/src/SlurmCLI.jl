@@ -5,7 +5,6 @@ using .Reservations
 
 include("nids.jl")
 
-
 using JSON, Dates, DataFrames, Parquet, ProgressMeter
 using Base: @kwdef, iterate, length
 
@@ -22,8 +21,8 @@ function shell(cmd::Cmd)
 
     process = run(pipeline(cmd, stdout=out, stderr=err), wait=false)
 
-    stdout = @async String(read(out))
-    stderr = @async String(read(err))
+    stdout = @async String(Base.read(out))
+    stderr = @async String(Base.read(err))
 
     wait(process)
     close(out.in)
@@ -133,13 +132,16 @@ function Base.iterate(tp::TimePages, state=nothing)
 end
 
 
+# Note: division of [Millisecond]/[Day] only defined starting v 1.8
 Base.length(tp::TimePages) = ceil(Int64,(tp.stop - tp.start)/tp.step)
 
 
 export TimePages
 
 
-function add_unique!(admin_comments::AdminComment, new_jobs::AdminComment)
+function add_unique!(
+    admin_comments::Vector{AdminComment}, new_jobs::Vector{Any}
+)
     # add unique jobs to the list of admin_comments
     job_ids = map(x->x["jobId"], admin_comments)
     for job in new_jobs
