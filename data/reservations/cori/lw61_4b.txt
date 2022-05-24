@@ -1,0 +1,5 @@
+ReservationName=lw61_4 StartTime=2022-02-19T10:00:00 EndTime=2022-02-19T22:00:00 Duration=12:00:00
+   Nodes=nid0[0803-0805,0807-0831,0845-0850,0852-0855,0857-0859,0861,0863-0874,0877-0881,0883-0885,1547,1619] NodeCnt=64 CoreCnt=2048 Features=haswell PartitionName=regular_hsw Flags=
+   TRES=cpu=4096
+   Users=(null) Groups=(null) Accounts=lcls Licenses=(null) State=ACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:01:00
