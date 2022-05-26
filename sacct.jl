@@ -73,7 +73,7 @@ if ! isnothing(PARSED_ARGS["reservation"])
                 JSON.print(f, merged, 4)
             end
 
-            write_parquet("$(rd.name).parquet", df)
+            write_parquet(joinpath(DEST, "$(rd.name).parquet"), df)
         end
     end
 end
