@@ -204,7 +204,8 @@ export paginate_collect_jobs
 
 
 sacct_collect_jobs(
-    res::ReservationDescriptor, step::Period; verbose=true, clear_output=true
+    res::ReservationDescriptor, step::Period;
+    verbose=true, clear_output=true
 ) = paginate_collect_jobs(
     (x, y)->sacct_get_jobs(nodelist=res.nodelist, starttime=x, endtime=y),
     TimePages(res.starttime, res.endtime, step)
@@ -220,6 +221,13 @@ sacct_collect_jobs(
 )
 
 
+sacct_collect_jobs_node(
+    nodelist::String, start::DateTime, stop::DateTime, step::Period;
+    verbose=true, clear_output=true
+) = paginate_collect_jobs(
+    (x, y)->sacct_get_jobs(nodelist=nodelist, starttime=x, endtime=y),
+    TimePages(start, stop, step)
+)
 export sacct_collect_jobs
 
 

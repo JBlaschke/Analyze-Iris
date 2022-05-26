@@ -48,6 +48,10 @@ Base.convert(::Type{DateTime}, s::AbstractString) = DateTime(s)
 Base.convert(::Type{Int64}, s::AbstractString) = parse(Int64, s)
 
 function Base.convert(::Type{Duration}, s::AbstractString)
+    if s .== "(null)"
+        s = "00:00:00"
+    end
+
     if contains(s, "-")
         return Duration(DateTime(s, "d-HH:MM:SS"))
     else
