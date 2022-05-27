@@ -1,0 +1,56 @@
+[
+    {
+        "original": {
+            "startTime": 1648207935,
+            "jobDerivedExitCode": 32512,
+            "submitTime": 1646937462,
+            "endTime": 1648207975,
+            "gresRequest": "cpu=64,mem=118G,node=1,billing=64",
+            "tresRequest": "1=64,2=120832,3=18446744073709551614,4=1,5=64",
+            "allocCpus": 64,
+            "jobId": 56032952,
+            "name": "surface-3_BN-small-cubic-B12N12_8Bi_G7I16",
+            "batchHost": "nid01437",
+            "packJobId": 0,
+            "licenses": "cscratch1:1",
+            "gresUsed": "craynetwork:4",
+            "allocNodes": 1,
+            "jobAccount": "m526",
+            "priority": 69119,
+            "jobExitCode": 0,
+            "resizing": 0,
+            "uid": 96269,
+            "argv": [
+                "/global/project/projectdirs/m108/mworkbase/util/runaims.sh",
+                "-I",
+                "/global/homes/s/seungwoo/work/.mqaims/surface-3_BN-small-cubic-B12N12_8Bi_results_Generation_7_Indv_16.fque",
+                "-N",
+                "1",
+                "-l",
+                "55",
+                "-D",
+                "/global/cscratch1/sd/seungwoo/calwork/surface-3.BN-small-cubic-B12N12_8Bi/results/Generation_7/Indv_16",
+                "-m",
+                "22",
+                "-m",
+                "23"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 2880,
+            "cluster": "cori",
+            "restartCnt": 0,
+            "stdinPath": "/dev/null",
+            "nodes": "nid01437",
+            "workingDirectory": "/global/cscratch1/sd/seungwoo/calwork/surface-3.BN-small-cubic-B12N12_8Bi/results/Generation_7/Indv_16",
+            "qos": "regular_1",
+            "features": "haswell",
+            "arrayJobId": 0,
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    }
+]

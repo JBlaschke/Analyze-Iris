@@ -1,0 +1,48 @@
+[
+    {
+        "original": {
+            "startTime": 1645211273,
+            "jobDerivedExitCode": 0,
+            "submitTime": 1644651750,
+            "endTime": 1645253036,
+            "gresRequest": "cpu=8,mem=944G,node=8,billing=8",
+            "tresRequest": "1=512,2=966656,3=18446744073709551614,4=8,5=512",
+            "name": "1_MoS2_39",
+            "jobId": 54734372,
+            "batchHost": "nid02099",
+            "packJobId": 0,
+            "licenses": "cscratch1:1",
+            "priority": 70957,
+            "allocCpus": 512,
+            "allocNodes": 8,
+            "gresUsed": "craynetwork:32",
+            "jobAccount": "m526",
+            "jobExitCode": 0,
+            "resizing": 0,
+            "uid": 96268,
+            "argv": [
+                "/global/project/projectdirs/m108/mworkbase/util/usub.sh",
+                "-m",
+                "23",
+                "-N",
+                "8"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 2880,
+            "cluster": "cori",
+            "nodes": "nid[02099,02145,02189,02237,02271,12674,12735,12771]",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "workingDirectory": "/global/cscratch1/sd/jihoon93/vaspwork/1_MoS2/39",
+            "arrayJobId": 0,
+            "features": "haswell",
+            "qos": "regular_1",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    }
+]

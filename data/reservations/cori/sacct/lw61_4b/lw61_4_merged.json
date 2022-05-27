@@ -1,0 +1,90 @@
+[
+    {
+        "original": {
+            "startTime": 1645359332,
+            "jobDerivedExitCode": 0,
+            "submitTime": 1645297792,
+            "endTime": 1645364409,
+            "gresRequest": "cpu=32,mem=118G,node=1,billing=32",
+            "tresRequest": "1=64,2=120832,3=18446744073709551614,4=1,5=64",
+            "name": "slurm_job.sh",
+            "jobId": 55006192,
+            "batchHost": "nid00857",
+            "packJobId": 0,
+            "licenses": "cscratch1:1,project:1",
+            "priority": 70141,
+            "stdoutPath": "/global/u2/m/mkramer/mywork/fn_michel/NuWaProd/../logs/nuwa_jobs/test_batch/slurm-%j.txt",
+            "allocNodes": 1,
+            "allocCpus": 64,
+            "gresUsed": "craynetwork:4",
+            "jobAccount": "dayabay",
+            "jobExitCode": 512,
+            "resizing": 0,
+            "uid": 51522,
+            "argv": [
+                "/global/u2/m/mkramer/mywork/fn_michel/NuWaProd/slurm_job.sh",
+                "../data/nuwa_input/test_batch/input.txt",
+                "../data/nuwa_output/test_batch"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 2,
+            "timeLimit": 300,
+            "cluster": "cori",
+            "nodes": "nid00857",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "workingDirectory": "/global/u2/m/mkramer/mywork/fn_michel/NuWaProd",
+            "arrayJobId": 55006188,
+            "qos": "regular_1",
+            "features": "haswell",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    },
+    {
+        "original": {
+            "startTime": 1645360922,
+            "jobDerivedExitCode": 6,
+            "submitTime": 1645313390,
+            "endTime": 1645361306,
+            "gresRequest": "cpu=10,mem=1180G,node=10,billing=10",
+            "tresRequest": "1=640,2=1208320,3=18446744073709551614,4=10,5=640",
+            "name": "run.Surface_Water_Projection_gfdl-esm4_historical_ac5e794b7d.2022-02-09-134652",
+            "jobId": 55014836,
+            "batchHost": "nid01530",
+            "packJobId": 0,
+            "priority": 69906,
+            "stdoutPath": "/global/u1/d/donghui/e3sm_runoff/cime/scripts/Surface_Water_Projection_gfdl-esm4_historical_ac5e794b7d.2022-02-09-134652/run.Surface_Water_Projection_gfdl-esm4_historical_ac5e794b7d.2022-02-09-134652.%j",
+            "allocCpus": 640,
+            "allocNodes": 10,
+            "gresUsed": "craynetwork:40",
+            "jobAccount": "m3780",
+            "jobExitCode": 256,
+            "resizing": 0,
+            "uid": 92565,
+            "argv": [
+                ".case.run",
+                "--resubmit"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 2880,
+            "cluster": "cori",
+            "nodes": "nid[01530,01577,01579,01614,01619,01632,13024-13025,13050-13051]",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "workingDirectory": "/global/u1/d/donghui/e3sm_runoff/cime/scripts/Surface_Water_Projection_gfdl-esm4_historical_ac5e794b7d.2022-02-09-134652",
+            "arrayJobId": 0,
+            "qos": "regular_1",
+            "features": "haswell",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    }
+]

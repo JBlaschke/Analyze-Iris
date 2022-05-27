@@ -1,0 +1,183 @@
+[
+    {
+        "original": {
+            "startTime": 1628347960,
+            "jobDerivedExitCode": 0,
+            "submitTime": 1627614935,
+            "endTime": 1628353393,
+            "gresRequest": "cpu=11,mem=1298G,node=11,billing=11",
+            "tresRequest": "1=704,2=1329152,3=18446744073709551614,4=11,5=704",
+            "gresUsed": "craynetwork:44",
+            "priority": 1,
+            "batchHost": "nid00802",
+            "licenses": "cscratch1:1",
+            "packJobId": 0,
+            "stdoutPath": "/global/cscratch1/sd/tbechtel/m10wm211g32d3p3ssviscfixpll5prp0_h0.9u/m10wm211g32d3p3ssviscfixpll5prp0_r0.9u.oe%j",
+            "name": "m10wm211g32d3p3ssviscfixpll5prp0_r0.9u.sl",
+            "jobId": 44931186,
+            "jobAccount": "mp21",
+            "allocNodes": 11,
+            "jobExitCode": 0,
+            "allocCpus": 704,
+            "resizing": 0,
+            "uid": 59891,
+            "argv": [
+                "/global/cscratch1/sd/tbechtel/m10wm211g32d3p3ssviscfixpll5prp0_h0.9u/m10wm211g32d3p3ssviscfixpll5prp0_r0.9u.sl",
+                "sbatch",
+                "m10wm211g32d3p3ssviscfixpll5prp0_rk0.9u.sl"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 107,
+            "cluster": "cori",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "nodes": "nid00[802,805-811,829,831,845]",
+            "arrayJobId": 0,
+            "features": "haswell",
+            "qos": "overrun",
+            "workingDirectory": "/global/cscratch1/sd/tbechtel/m10wm211g32d3p3ssviscfixpll5prp0_h0.9u",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    },
+    {
+        "original": {
+            "startTime": 1628621369,
+            "jobDerivedExitCode": 0,
+            "submitTime": 1627697127,
+            "endTime": 1628637384,
+            "gresRequest": "cpu=1,mem=110G,node=1,billing=1",
+            "tresRequest": "1=64,2=112640,3=18446744073709551614,4=1,5=64",
+            "gresUsed": "craynetwork:4",
+            "priority": 70141,
+            "batchHost": "nid00820",
+            "licenses": "cscratch1:1",
+            "packJobId": 0,
+            "name": "schedule.sh",
+            "jobId": 44969969,
+            "allocNodes": 1,
+            "jobAccount": "m3341",
+            "jobExitCode": 0,
+            "allocCpus": 64,
+            "resizing": 0,
+            "uid": 80017,
+            "argv": [
+                "/global/u2/n/nsherman/run/schedule.sh",
+                "qspace.py",
+                "16",
+                "29",
+                "16"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 2880,
+            "cluster": "cori",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "nodes": "nid00820",
+            "arrayJobId": 0,
+            "features": "haswell",
+            "qos": "regular_1",
+            "workingDirectory": "/global/u2/n/nsherman/run",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    },
+    {
+        "original": {
+            "startTime": 1628633017,
+            "jobDerivedExitCode": 0,
+            "submitTime": 1627697127,
+            "endTime": 1628637385,
+            "gresRequest": "cpu=1,mem=110G,node=1,billing=1",
+            "tresRequest": "1=64,2=112640,3=18446744073709551614,4=1,5=64",
+            "gresUsed": "craynetwork:4",
+            "priority": 69313,
+            "batchHost": "nid00823",
+            "licenses": "cscratch1:1",
+            "packJobId": 0,
+            "name": "schedule.sh",
+            "jobId": 44969971,
+            "allocNodes": 1,
+            "jobAccount": "m3341",
+            "jobExitCode": 0,
+            "allocCpus": 64,
+            "resizing": 0,
+            "uid": 80017,
+            "argv": [
+                "/global/u2/n/nsherman/run/schedule.sh",
+                "qspace.py",
+                "16",
+                "29",
+                "18"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 2880,
+            "cluster": "cori",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "nodes": "nid00823",
+            "arrayJobId": 0,
+            "features": "haswell",
+            "qos": "regular_1",
+            "workingDirectory": "/global/u2/n/nsherman/run",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    },
+    {
+        "original": {
+            "startTime": 1628051967,
+            "jobDerivedExitCode": 0,
+            "submitTime": 1627944213,
+            "endTime": 1628095177,
+            "gresRequest": "cpu=94,mem=11092G,node=94,billing=94",
+            "tresRequest": "1=6016,2=11358208,3=18446744073709551614,4=94,5=6016",
+            "gresUsed": "craynetwork:376",
+            "priority": 70910,
+            "batchHost": "nid00902",
+            "licenses": "cscratch1:1",
+            "packJobId": 0,
+            "stdoutPath": "/global/cscratch1/sd/weiweif/e3sm_scratch/cori-haswell/210728_IRF_E3SM_01/run.210728_IRF_E3SM_01.%j",
+            "name": "run.210728_IRF_E3SM_01",
+            "jobId": 45054377,
+            "jobAccount": "e3sm",
+            "allocNodes": 94,
+            "jobExitCode": 0,
+            "allocCpus": 6016,
+            "resizing": 0,
+            "uid": 77851,
+            "argv": [
+                ".case.run",
+                "--resubmit"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 720,
+            "cluster": "cori",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "nodes": "nid[00902-00914,00943-00953,01043-01052,01389-01399,01525-01529,01705-01716,02128-02137,02276-02287,12845-12854]",
+            "arrayJobId": 0,
+            "features": "haswell",
+            "qos": "regular_1",
+            "workingDirectory": "/global/cscratch1/sd/weiweif/e3sm_scratch/cori-haswell/210728_IRF_E3SM_01",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    }
+]

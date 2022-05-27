@@ -1,0 +1,49 @@
+[
+    {
+        "original": {
+            "requestedSwitches": 1,
+            "startTime": 1645460139,
+            "jobDerivedExitCode": 0,
+            "minSwitchesAchieved": "true",
+            "submitTime": 1645420282,
+            "endTime": 1645460866,
+            "gresRequest": "cpu=39,mem=4602G,node=39,billing=39",
+            "tresRequest": "1=2496,2=4712448,3=18446744073709551614,4=39,5=2496",
+            "name": "runmac0581_C16_Nmax6_Mj2-ALL-1",
+            "jobId": 55087014,
+            "batchHost": "nid00786",
+            "packJobId": 0,
+            "licenses": "cscratch1:1,project:1",
+            "priority": 69779,
+            "allocCpus": 2496,
+            "allocNodes": 39,
+            "gresUsed": "craynetwork:156",
+            "jobAccount": "m94",
+            "jobExitCode": 0,
+            "resizing": 0,
+            "wait4Switch_time": 1645420282,
+            "uid": 75411,
+            "argv": [
+                "/global/homes/p/pengyin/NDhome/code/mcscript/bash_job_wrapper.sh",
+                "python3",
+                "/global/homes/p/pengyin/NDhome/runs/runmac0581_C16_Nmax6_Mj2.py"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 30,
+            "cluster": "cori",
+            "nodes": "nid0[0786-0787,0789,0798,0800,0848,0850-0855,0860,0862,0875,0880-0881,0902,0909,0917,0924,0930,0938-0939,0951-0952,0988,1002,1019-1021,1048,1063,1067-1068,1096-1098,1117]",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "workingDirectory": "/global/cscratch1/sd/pengyin/NDscratch/runs/runmac0581_C16_Nmax6_Mj2/batch",
+            "arrayJobId": 0,
+            "features": "haswell",
+            "qos": "regular_1",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    }
+]

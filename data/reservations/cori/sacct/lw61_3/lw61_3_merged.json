@@ -1,0 +1,136 @@
+[
+    {
+        "original": {
+            "startTime": 1645293687,
+            "jobDerivedExitCode": 0,
+            "submitTime": 1644651765,
+            "endTime": 1645348594,
+            "gresRequest": "cpu=8,mem=944G,node=8,billing=8",
+            "tresRequest": "1=512,2=966656,3=18446744073709551614,4=8,5=512",
+            "name": "1_MoS2_42",
+            "jobId": 54734376,
+            "batchHost": "nid01272",
+            "packJobId": 0,
+            "licenses": "cscratch1:1",
+            "priority": 70476,
+            "allocCpus": 512,
+            "allocNodes": 8,
+            "gresUsed": "craynetwork:32",
+            "jobAccount": "m526",
+            "jobExitCode": 0,
+            "resizing": 0,
+            "uid": 96268,
+            "argv": [
+                "/global/project/projectdirs/m108/mworkbase/util/usub.sh",
+                "-m",
+                "23",
+                "-N",
+                "8"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 2880,
+            "cluster": "cori",
+            "nodes": "nid0[1272,1275,1291,1293,1310,1320,1326,1360]",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "workingDirectory": "/global/cscratch1/sd/jihoon93/vaspwork/1_MoS2/42",
+            "arrayJobId": 0,
+            "features": "haswell",
+            "qos": "regular_1",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    },
+    {
+        "original": {
+            "startTime": 1645216995,
+            "jobDerivedExitCode": 15,
+            "submitTime": 1645205993,
+            "endTime": 1645217185,
+            "gresRequest": "cpu=17,mem=2006G,node=17,billing=17",
+            "tresRequest": "1=1088,2=2054144,3=18446744073709551614,4=17,5=1088",
+            "name": "run.satphenmatch-clfix_FDIfix.fates-sci.1.50.0_api.17.0.0-v2.0.0-C3a1b5ed84b-F553f3a25.gnu",
+            "jobId": 54959877,
+            "batchHost": "nid01380",
+            "packJobId": 0,
+            "licenses": "cscratch1:1",
+            "priority": 69301,
+            "stdoutPath": "/global/cscratch1/sd/glemieux/e3sm-cases/satphenmatch-clfix_FDIfix.fates-sci.1.50.0_api.17.0.0-v2.0.0-C3a1b5ed84b-F553f3a25.gnu/run.satphenmatch-clfix_FDIfix.fates-sci.1.50.0_api.17.0.0-v2.0.0-C3a1b5ed84b-F553f3a25.gnu.%j",
+            "allocNodes": 17,
+            "allocCpus": 1088,
+            "gresUsed": "craynetwork:68",
+            "jobAccount": "m2420",
+            "jobExitCode": 256,
+            "resizing": 0,
+            "uid": 79899,
+            "argv": [
+                ".case.run",
+                "--resubmit"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 60,
+            "cluster": "cori",
+            "nodes": "nid[01380,02085-02086,02088-02089,02163-02164,02193-02194,02302-02303,12672-12673,12726-12727,12736-12737]",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "workingDirectory": "/global/cscratch1/sd/glemieux/e3sm-cases/satphenmatch-clfix_FDIfix.fates-sci.1.50.0_api.17.0.0-v2.0.0-C3a1b5ed84b-F553f3a25.gnu",
+            "arrayJobId": 0,
+            "qos": "regular_1",
+            "features": "haswell",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    },
+    {
+        "original": {
+            "startTime": 1645213154,
+            "jobDerivedExitCode": 0,
+            "submitTime": 1645212947,
+            "endTime": 1645232996,
+            "gresRequest": "cpu=30,mem=3540G,node=30,billing=30",
+            "tresRequest": "1=1920,2=3624960,3=18446744073709551614,4=30,5=1920",
+            "name": "run.sshu.cori-haswell.E6bc232527-F6517c7dc.2022-02-16",
+            "jobId": 54963287,
+            "batchHost": "nid00799",
+            "packJobId": 0,
+            "licenses": "cscratch1:1",
+            "priority": 73441,
+            "stdoutPath": "/global/cscratch1/sd/sshu3/Runs/E3SM_runs/sshu.cori-haswell.E6bc232527-F6517c7dc.2022-02-16/run.sshu.cori-haswell.E6bc232527-F6517c7dc.2022-02-16.%j",
+            "allocNodes": 30,
+            "allocCpus": 1920,
+            "gresUsed": "craynetwork:120",
+            "jobAccount": "m2467",
+            "jobExitCode": 0,
+            "resizing": 0,
+            "uid": 59486,
+            "argv": [
+                ".case.run",
+                "--resubmit"
+            ],
+            "reboot": 0,
+            "arrayTaskId": 4294967294,
+            "timeLimit": 1200,
+            "cluster": "cori",
+            "nodes": "nid[00799,00890,00988,00994,01060,01081-01082,01124,01136,01177,01247,01298,01355,01452,01628-01631,01669-01672,02262-02265,12828-12831]",
+            "stdinPath": "/dev/null",
+            "restartCnt": 0,
+            "workingDirectory": "/global/cscratch1/sd/sshu3/Runs/E3SM_runs/sshu.cori-haswell.E6bc232527-F6517c7dc.2022-02-16",
+            "arrayJobId": 0,
+            "qos": "premium",
+            "features": "haswell",
+            "partition": "regular_hsw",
+            "packJobOffset": 0
+        },
+        "merged_names": [
+            "argv"
+        ]
+    }
+]
