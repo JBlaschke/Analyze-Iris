@@ -1,0 +1,10 @@
+ReservationName=preemption_test_cori StartTime=2022-06-08T08:00:00 EndTime=2022-06-08T10:00:00 Duration=02:00:00
+   Nodes=nid000[39-40,43-44] NodeCnt=4 CoreCnt=272 Features=knl PartitionName=regular_knl Flags=
+     NodeName=nid00039 CoreIDs=0-67
+     NodeName=nid00040 CoreIDs=0-67
+     NodeName=nid00043 CoreIDs=0-67
+     NodeName=nid00044 CoreIDs=0-67
+   TRES=cpu=1088
+   Users=(null) Groups=(null) Accounts=nstaff Licenses=(null) State=ACTIVE BurstBuffer=(null) Watts=n/a
+   MaxStartDelay=00:10:00
+
