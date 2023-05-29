@@ -1,2 +1,4 @@
 .ipynb_checkpoints/
 figures/
+
+data/reservations/experiments/*/patient_app
