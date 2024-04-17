@@ -4,6 +4,7 @@ include("reservations.jl")
 using .Reservations
 
 include("nids.jl")
+include("bits.jl")
 
 using JSON, Dates, DataFrames, Parquet, ProgressMeter
 using Base: @kwdef, iterate, length
